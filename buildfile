@@ -14,9 +14,10 @@ define 'gwt-gin-extensions' do
   pom.add_apache_v2_license
   pom.add_github_project('realityforge/gwt-gin-extensions')
   pom.add_developer('realityforge', 'Peter Donald')
-  pom.provided_dependencies.concat [:javax_annotation, :javax_inject, :javax_inject_sources]
+  pom.provided_dependencies.concat [:javax_annotation, :findbugs_annotations, :javax_inject, :javax_inject_sources]
 
   compile.with :javax_annotation,
+               :findbugs_annotations,
                :gwt_user,
                :gwt_gin,
                :javax_inject,
