@@ -1,0 +1,14 @@
+repositories:
+  remote:
+   - http://repo1.maven.org/maven2
+
+artifacts:
+  javax_annotation: com.google.code.findbugs:jsr305:jar:3.0.0
+  javax_inject: javax.inject:javax.inject:jar:1
+  javax_inject_sources: javax.inject:javax.inject:jar:sources:1
+  aopalliance: aopalliance:aopalliance:jar:1.0
+  guice: com.google.inject:guice:jar:3.0
+  guice_assistedinject: com.google.inject.extensions:guice-assistedinject:jar:3.0
+  gwt_user: com.google.gwt:gwt-user:jar:2.8.0
+  gwt_dev: com.google.gwt:gwt-dev:jar:2.8.0
+  gwt_gin: com.google.gwt.inject:gin:jar:2.1.2
