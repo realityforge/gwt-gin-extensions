@@ -10,6 +10,6 @@ artifacts:
   aopalliance: aopalliance:aopalliance:jar:1.0
   guice: com.google.inject:guice:jar:3.0
   guice_assistedinject: com.google.inject.extensions:guice-assistedinject:jar:3.0
-  gwt_user: com.google.gwt:gwt-user:jar:2.8.0
-  gwt_dev: com.google.gwt:gwt-dev:jar:2.8.0
+  gwt_user: com.google.gwt:gwt-user:jar:2.8.1
+  gwt_dev: com.google.gwt:gwt-dev:jar:2.8.1
   gwt_gin: com.google.gwt.inject:gin:jar:2.1.2
